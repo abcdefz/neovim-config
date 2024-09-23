@@ -33,6 +33,12 @@ local plugins = {
   "saadparwaiz1/cmp_luasnip",
   "rafamadriz/friendly-snippets",
   "hrsh7th/cmp-path", -- 文件路径
+   {
+       "nvimtools/none-ls.nvim",
+       dependencies = {
+          "nvimtools/none-ls-extras.nvim",
+       },
+   },
 
   "numToStr/Comment.nvim", -- gcc和gc注释
   "windwp/nvim-autopairs", -- 自动补全括号
